@@ -1,0 +1,33 @@
+{
+  "name": "ateev.github.io",
+  "version": "1.0.0",
+  "description": "ateev.in source code",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ateev/ateev.github.io.git"
+  },
+  "keywords": [
+    "react",
+    "blog",
+    "ateev.in",
+    "next"
+  ],
+  "author": "ateev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ateev/ateev.github.io/issues"
+  },
+  "homepage": "https://github.com/ateev/ateev.github.io#readme",
+  "dependencies": {
+    "next": "^2.3.0-alpha1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "styled-components": "^1.4.5"
+  }
+}
