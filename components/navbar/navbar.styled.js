@@ -5,12 +5,6 @@ export const Nav = styled.nav`
 	height: 60px;
 	background: white;
 	margin-top: 20px;
-	a {
-		text-decoration: none;
-		&:active {
-			color: #000;
-		}
-	}
 	.logo {
 		display: inline-block;
 		float: left;
