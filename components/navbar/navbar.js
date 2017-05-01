@@ -25,9 +25,6 @@ export default () => (
 				<Link href="/projects" >
 					<a>Projects</a>
 				</Link>
-				<Link href="/about" >
-					<a>About</a>
-				</Link>
 			</div>
 		</Nav>
 	</Container>

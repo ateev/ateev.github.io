@@ -1,11 +1,11 @@
 import NavBar from '../components/navbar/navbar';
 import Head from 'next/head';
-import { Home, IntroText, IntroHeading } from './index.styled';
+import { Home, IntroText, IntroHeading, MyImage } from './index.styled';
 
 export default () => (
   <Home>
     <Head>
-      <title>Ateev/Labs</title>
+      <title>Ateev/Labs: Home</title>
       <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet" />
       <style> 
         {`
@@ -26,6 +26,7 @@ export default () => (
     <div className="intro-wrapper">
 
       <IntroHeading>Hi, I'm Ateev!</IntroHeading>
+      <MyImage />
       <IntroText>
         <p>
           I'm a software engineer who has a passion for creating modern apps.
