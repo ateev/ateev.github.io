@@ -1,6 +1,6 @@
 import NavBar from '../components/navbar/navbar';
 import Head from 'next/head';
-import { Home, IntroText, IntroHeading, MyImage } from './index.styled';
+import { Home, IntroText, IntroWrapper, MyImage } from './index.styled';
 
 export default () => (
   <Home>
@@ -23,9 +23,8 @@ export default () => (
       </style>
     </Head>
     <NavBar />
-    <div className="intro-wrapper">
-
-      <IntroHeading>Hi, I'm Ateev!</IntroHeading>
+    <IntroWrapper>
+      <div className="intro-heading">Hi, I'm Ateev!</div>
       <MyImage />
       <IntroText>
         <p>
@@ -35,6 +34,6 @@ export default () => (
         </p>
       </IntroText>
 
-    </div>
+    </IntroWrapper>
   </Home>
 );

@@ -10,15 +10,28 @@ export const Home = styled.div`
   `}
 `;
 
-export const IntroHeading = styled.div`
-  text-align: center;
+export const IntroWrapper = styled.div`
   padding: 20px;
-  font-size: 35px;
-  margin-top: 50px;
+  margin-top: 15%;
+  .intro-heading {
+    text-align: center;
+    font-size: 35px;
+  }
 `;
+
+export const MyImage = styled.div`
+  background-image: url('/static/mine.png');
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 45px auto;
+  background-position: center;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+`
 
 export const IntroText = styled.div`
   text-align: center;
-  padding: 20px;
   font-size: 20px;
-`
+`;
