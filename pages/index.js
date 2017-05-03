@@ -2,6 +2,7 @@ import NavBar from '../components/navbar/navbar';
 import Head from 'next/head';
 import { Home } from './index.styled';
 import Intro from '../components/intro/intro';
+import TechStack from '../components/techStack/techStack';
 
 export default () => (
   <Home>
@@ -25,5 +26,6 @@ export default () => (
     </Head>
     <NavBar />
     <Intro />
+    <TechStack />
   </Home>
 );
